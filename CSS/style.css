@@ -1,0 +1,30 @@
+/* Import Of Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&display=swap');
+
+/* Applies To All Of The Bootstrap Nav Bar */
+.Navigation-Bar {
+    background-color: #3b6d73 !important;
+}
+
+/* Applies To All Of The Bootstrap Nav Bar Links */
+.Navigation-Link {
+    font-family: 'Economica', sans-serif !important;
+    font-size: 20px;
+    color: white !important;
+    text-align: left !important;
+}
+.Navigation-Link:hover {
+    color: #fe6b6b !important;
+}
+
+/* Applies To The Nav Bar Toggler Button */
+.navbar-toggler {
+    border: none;
+}
+
+.Navigation-Decoration {
+    font-family: 'Economica', sans-serif;
+    color: white !important;
+    padding: 0px;
+    font-size: 25px;
+}
