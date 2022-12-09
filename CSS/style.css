@@ -85,6 +85,31 @@
     box-shadow: none !important;
 }
 
+.Work-Header {
+    display:flex;
+    align-items: center;
+}
+
+.Work-Line-One {
+    border-bottom: 10px solid #3b6d73;
+    width: 5%;
+    height: 5%;
+}
+
+.My-Work {
+    font-size: 50px;
+    color: #3b6d73;
+    font-family: 'Economica', sans-serif;
+    padding: 1%;
+    text-align: center;
+}
+
+.Work-Line-Two {
+    border-bottom: 10px solid #3b6d73;
+    width: 75%;
+    height: 5%;
+}
+
 /* Media Query For Small Screen */
 @media only screen and (max-width:576px) {
     .Jumbo-Header {
