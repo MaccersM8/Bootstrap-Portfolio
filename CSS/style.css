@@ -60,7 +60,7 @@
 }
 
 /* Applies To The Jumbotron Button */
-.btn {
+.Jumbo-Button {
     background-color: #3b6d73;
     border: 2px solid #3b6d73;
     color: white;
@@ -71,31 +71,34 @@
 }
 
 /* Applies To The Jumbotron Button On Hover */
-.btn:hover {
+.Jumbo-Button:hover {
     background-color: #fe6b6b;
     border: 2px solid #fe6b6b;
     color: white;
 }
 
 /* Applies To The Jumbotron Button On Click */
-.btn:on-click {
+.Jumbo-Button:on-click {
     background-color: #fe6b6b !important;
     border: 2px solid #fe6b6b !important;
     color: white !important;
     box-shadow: none !important;
 }
 
+/* Applies To Work Title Section */
 .Work-Header {
     display:flex;
     align-items: center;
 }
 
+/* Applies To Work Section Decorative Line One */
 .Work-Line-One {
     border-bottom: 10px solid #3b6d73;
     width: 5%;
     height: 5%;
 }
 
+/* Applies To Work Section Header */
 .My-Work {
     font-size: 50px;
     color: #3b6d73;
@@ -104,10 +107,62 @@
     text-align: center;
 }
 
+/* Applies To Work Section Decorative Line Two */
 .Work-Line-Two {
     border-bottom: 10px solid #3b6d73;
     width: 75%;
     height: 5%;
+}
+
+/* Applies To Work Card */
+.Work-Card {
+    background-color: #f9fef9;
+    border-radius: 15px;
+    size: 100%;
+    border: 5px solid #3B6D73;
+    justify-content: space-around !important;
+    align-items: center !important;
+}
+
+/* Relates To Work Card Images */
+.Work-Card-Image {
+    width: 80%;
+    padding-top: 10px;
+    position: center;
+}
+
+/* Applies To Work Card Heading */
+.Work-Card-Heading {
+    text-align: center;
+    color: #fe6b6b;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+}
+
+/* Applies To Work Card Heading */
+.Work-Card-SubHeading {
+    text-align: center;
+    color: #fe6b6b;
+    font-family: 'Economica', sans-serif;
+    font-size: 25px;
+}
+
+/* Applies To Work Card Button */
+.Work-Card-Button {
+    background-color: #3B6D73;
+    border: 1px solid #3B6D73;
+    box-shadow: 5px white;
+    color: white;
+    font-family: 'Economica', sans-serif;
+    font-size: 25px;
+    width: 100%;
+}
+
+/* Applies To Work Card On Hover */
+.Work-Card-Button:hover {
+    background-color: #fe6b6b;
+    border: 1px solid #fe6b6b;
+    color: white;
 }
 
 /* Media Query For Small Screen */
@@ -118,7 +173,7 @@
     .Jumbo-SubHeader {
         display: none;
     }
-    .btn {
+    .Jumbo-Button {
         display: none;
     }
     .jumbotron {
@@ -134,7 +189,7 @@
     .Jumbo-SubHeader {
         display: none;
     }
-    .btn {
+    .Jumbo-Button {
         display: none;
     }
     .jumbotron {

@@ -55,7 +55,7 @@
             <ul class="navbar-nav mr-auto">
                 <!-- Link For Work Section -->
                 <li class="nav-item">
-                    <a class="nav-link Navigation-Link" href="#"><strong>Work</strong></a>
+                    <a class="nav-link Navigation-Link" href="#Work"><strong>Work</strong></a>
                 </li>
                 <!-- Link For Skills Section -->
                 <li class="nav-item">
@@ -78,15 +78,86 @@
         <div class="jumbotron">
             <!-- Jumbotron Header -->
             <h1 class="display-4 Jumbo-Header"><strong>Maisie<br>McDonald</strong></h1>
+            <!-- Jumbotron Sub Header -->
             <p class="lead Jumbo-SubHeader">Web Developer</p>
-            <a class="btn" href="#" role="button"><strong>Get In Touch!</strong></a>
+            <!-- Jumbotron Button -->
+            <a class="btn Jumbo-Button" href="#" role="button"><strong>Get In Touch!</strong></a>
         </div>
     </section>
-    <section class="Work-Header">
-        <span class="Work-Line-One"></span>
-        <h2 class="My-Work"><strong>&lt My Work &gt</strong></h2>
-        <span class="Work-Line-Two"></span>
-    </section>
+    <main>
+        <!-- Work Section Header -->
+        <section class="Work-Header" id="Work">
+            <!-- First Work Section Decorative Line -->
+            <span class="Work-Line-One"></span>
+            <!-- Work Section Heading -->
+            <h2 class="My-Work"><strong>&lt My Work &gt</strong></h2>
+            <!-- Second Work Section Line -->
+            <span class="Work-Line-Two"></span>
+        </section>
+        <!-- Body Of Work Section -->
+        <section class="Work-Cards">
+            <div class="container-fluid My-Work-Tiles">
+                <div class="row">
+                    <div class="cardContainer mb-4 col-lg-4 col-md-6 col-sm-12">
+                        <!-- Bootstrap Code For Pre-Work Card -->
+                        <div class="card w-100 Work-Card" style="width: 18rem;">
+                            <!-- Pre-Work Card Image -->
+                            <img class="Work-Card-Image" src="./Images/PreWork-Image.png" class="card-img-top"
+                                alt="Icon Of A Computer Representing Online Education">
+                            <!-- Body Of Pre-Work Card -->
+                            <div class="card-body">
+                                <!-- Pre-Work Card Title -->
+                                <h5 class="card-title Work-Card-Heading"><strong>Pre-Work Study Guide</strong></h5>
+                                <!-- Pre-Work Card Sub-Heading -->
+                                <p class="card-text Work-Card-SubHeading"><strong>HTML/CSS/Javascript</strong></p>
+                                <!-- Pre-Work Card Button -->
+                                <a target="_blank" href="https://maccersm8.github.io/Prework-Study-Guide-New/" class="btn Work-Card-Button"><strong>Go To Site</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bootstrap Code For Horiseon Card -->
+                    <div class="cardContainer mb-4 col-lg-4 col-md-6 col-sm-12">
+                        <!-- Bootstrap Code For Horiseon Card -->
+                        <div class="card w-100 Work-Card" style="width: 18rem;">
+                            <!-- Horiseon Card Image -->
+                            <img class="Work-Card-Image" src="./Images/Refactor-Image.png" class="card-img-top"
+                                alt="Icon Of A Overlaying Documents Representing Refactoring">
+                            <!-- Body Of Horiseon Card -->
+                            <div class="card-body">
+                                <!-- Horiseon Card Title -->
+                                <h5 class="card-title Work-Card-Heading"><strong>Horiseon SEO</strong></h5>
+                                <!-- Horiseon Card Sub-Heading -->
+                                <p class="card-text Work-Card-SubHeading"><strong>HTML/CSS Refactor</strong></p>
+                                <!-- Horiseon Card Button -->
+                                <a target="_blank" href="https://maccersm8.github.io/Horiseon-Refactor/" class="btn Work-Card-Button"><strong>Go To Site</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bootstrap Code For Horiseon Card -->
+                    <div class="cardContainer mb-4 col-lg-4 col-md-6 col-sm-12">
+                        <!-- Bootstrap Code For Portfolio Card -->
+                        <div class="card w-100 Work-Card" style="width: 18rem;">
+                            <!-- Portfolio Card Image -->
+                            <img class="Work-Card-Image" src="./Images/Portfolio-Image.png" class="card-img-top"
+                                alt="Icon Of A Overlaying Documents Representing Refactoring">
+                            <!-- Body Of Portfolio Card -->
+                            <div class="card-body">
+                                <!-- Portfolio Card Title -->
+                                <h5 class="card-title Work-Card-Heading"><strong>Portfolio</strong></h5>
+                                <!-- Portfolio Card Sub-Heading -->
+                                <p class="card-text Work-Card-SubHeading"><strong>HMTL/CSS Flex & Grid</strong></p>
+                                <!-- Portfolio Card Button -->
+                                <a href="#" class="btn Work-Card-Button"><strong>Go To Site</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+
 </body>
 
 </html>
