@@ -165,6 +165,64 @@
     color: white;
 }
 
+/* Applies To Skills Title Section */
+.Skills-Header {
+    display:flex;
+    align-items: center;
+}
+
+/* Applies To Skills Section Decorative Line One */
+.Skills-Line-One {
+    border-bottom: 10px solid #fe6b6b;
+    width: 5%;
+    height: 5%;
+}
+
+/* Applies To Skills Section Header */
+.My-Skills {
+    font-size: 50px;
+    color: #fe6b6b;
+    font-family: 'Economica', sans-serif;
+    padding: 1%;
+    text-align: center;
+}
+
+/* Applies To Skills Section Decorative Line Two */
+.Skills-Line-Two {
+    border-bottom: 10px solid #fe6b6b;
+    width: 75%;
+    height: 5%;
+}
+
+.Skills-Intro {
+    margin: 10px;
+    color:#3B6D73;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+}
+
+/* Applies To Skills Section Progress Bar */
+.Skills-Progress {
+    border: 5px solid #3B6D73;
+    height: 50px;
+    margin: 10px;
+}
+
+/* Applies To CSS Progress Section */
+.CSS-Progress {
+    background-color: #fe6b6b;
+}
+
+/* Applies To JavaScript Progess Section */
+.JavaScript-Progress {
+    background-color: #3B6D73;
+}
+
+/* Applies To HTML Progress Section */
+.HTML-Progress {
+    background-color: #F8CB64;
+}
+
 /* Media Query For Small Screen */
 @media only screen and (max-width:576px) {
     /* Relates To Jumbotron Header */
@@ -183,11 +241,13 @@
     .jumbotron {
         height: 400px;
     }
-     /* Relates To My Work Decorative Line Two */
+    /* Relates To My Work Decorative Line Two */
     .Work-Line-Two {
-        border-bottom: 10px solid #3b6d73;
         width: 50%;
-        height: 5%;
+    }
+    /* Relates To My Skills Decorative Line Two */
+    .Skills-Line-Two {
+        width: 50%;
     }
 }
 
@@ -209,10 +269,8 @@
     .jumbotron {
         height: 400px;
     }
-    /* Relates To My Work Decorative Line Two */
-    .Work-Line-Two {
-        border-bottom: 10px solid #3b6d73;
+    /* Relates To My Skills Decorative Line Two */
+    .Skills-Line-Two {
         width: 68%;
-        height: 5%;
     }
 }
