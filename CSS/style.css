@@ -315,6 +315,70 @@
     padding-left: 10px;
 }
 
+/* Applies To About/Contact Title Section */
+.AboutContact-Header {
+    display:flex;
+    align-items: center;
+}
+
+/* Applies To About/Contact Section Decorative Line One */
+.AboutContact-Line-One {
+    border-bottom: 10px solid #F8CB64;
+    width: 5%;
+    height: 5%;
+}
+
+/* Applies To About/Section Section Header */
+.AboutContact {
+    font-size: 50px;
+    color: #F8CB64;
+    font-family: 'Economica', sans-serif;
+    padding: 1%;
+    text-align: center;
+}
+
+/* Applies To About/Contact Section Decorative Line Two */
+.AboutContact-Line-Two {
+    border-bottom: 10px solid #F8CB64;
+    width: 65%;
+    height: 5%;
+}
+
+/* Applies To About Me Content */
+.About {
+    color: #3B6D73;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Applies To Contact Me Content */
+.Contact {
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+}
+
+/* Applies To The Contact Me Content Buttons */
+.ContactButton {
+    color: white;
+    text-decoration: none;
+    text-align: top;
+    font-size: 30px;
+    background-color: #3B6D73;
+}
+
+/* Applies To The Contact Me Content Buttons On Hover */
+.ContactButton:hover {
+    background-color: #fe6b6b;
+    color: white !important;
+}
+
+/* Applies To Contact Me Content Buttons Links */
+.ContactButton a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Media Query For Small Screen */
 @media only screen and (max-width:576px) {
     /* Relates To Jumbotron Header */
@@ -381,6 +445,10 @@
     /* Relates To Whole Jumbotron */
     .jumbotron {
         height: 400px;
+    }
+    /* Relates To My Work Decorative Line Two */
+    .Work-Line-Two {
+        width: 68%;
     }
     /* Relates To My Skills Decorative Line Two */
     .Skills-Line-Two {
