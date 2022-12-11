@@ -194,6 +194,7 @@
     height: 5%;
 }
 
+/* Applies To My Skills Section Introduction */
 .Skills-Intro {
     margin: 10px;
     color:#3B6D73;
@@ -223,6 +224,89 @@
     background-color: #F8CB64;
 }
 
+.Coming-Soon-Progress {
+    background-color: #f9fef9;
+}
+
+/* Applies To Skills Progress Titles */
+.Progress-Titles {
+    display: flex;
+    align-items: center;
+}
+
+/* Applies To CSS Progress Icon */
+.CSS-Icon {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background-color: #fe6b6b;
+    margin-left: 25px;
+}
+
+/* Applies To CSS Progress Title */
+.CSS-Header {
+    color: #fe6b6b;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+/* Applies To JavaScript Progress Icon */
+.JavaScript-Icon {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background-color: #3B6D73;
+    margin-left: 25px;
+}
+
+/* Applies To JavaScript Progress Title */
+.JavaScript-Header {
+    color: #3B6D73;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+/* Applies To HTML Progress Icon */
+.HTML-Icon {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background-color: #F8CB64;
+    margin-left: 25px;
+}
+
+/* Applies To HTML Progress Title */
+.HTML-Header {
+    color: #F8CB64;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+/* Applies To Coming Soon Progress Icon */
+.Coming-Soon-Icon {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background-color: #f9fef9;
+    border: 2px solid #8c8c8c;
+    margin-left: 25px;
+}
+
+/* Applies To Coming Soon Progress Title */
+.Coming-Soon-Header {
+    color: #8c8c8c;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
 /* Media Query For Small Screen */
 @media only screen and (max-width:576px) {
     /* Relates To Jumbotron Header */
@@ -248,6 +332,24 @@
     /* Relates To My Skills Decorative Line Two */
     .Skills-Line-Two {
         width: 50%;
+    }
+    /*Relates To Coming Soon Progress Header */
+    .Coming-Soon-Header {
+        font-size: 20px;
+        text-align: center;
+        padding-left: 2px;
+    }
+    /*Relates To HTML Progress Header */
+    .HTML-Header {
+        font-size: 20px;
+    }
+    /*Relates To JavaScript Progress Header */
+    .JavaScript-Header {
+        font-size: 20px;
+    }
+    /*Relates To Coming Soon Progress Header */
+    .CSS-Header {
+        font-size: 20px;
     }
 }
 
