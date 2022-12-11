@@ -128,7 +128,6 @@
 .Work-Card-Image {
     width: 80%;
     padding-top: 10px;
-    position: center;
 }
 
 /* Applies To Work Card Heading */
@@ -379,6 +378,57 @@
     color: white;
 }
 
+/* Applies To Footer Section */
+footer {
+    background-color: #3b6d73;
+    height: auto;
+}
+
+/* Applies To My Details In Footer Section */
+.Owner-Details {
+    font-family: 'Economica', sans-serif;
+    color: #f9fef9;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Applies To Footer Buttons */
+.Footer-Button {
+    background-color: #F8CB64;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+    color: #3B6D73;
+}
+
+/* Applies To Footer Buttons On Hover */
+.Footer-Button:hover {
+    background-color: #fe6b6b;
+    color: white;
+    box-shadow: 0px 0px 0px 5px white;
+}
+
+/* Applies To Footer Link */
+.Footer-Link {
+    color: #3B6D73;
+}
+
+/* Applies To Footer Link On Hover */
+.Footer-Link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Applies To Branding In Footer Section */
+.Branding {
+    color: white;
+    font-family: 'Economica', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    background-color: #3B6D73;
+
+}
+
 /* Media Query For Small Screen */
 @media only screen and (max-width:576px) {
     /* Relates To Jumbotron Header */
@@ -424,7 +474,17 @@
         font-size: 20px;
     }
     .Skills-Text {
-        font-size: 20px;
+        font-size: 25px;
+    }
+    /* Relates To About/Contact Decorative Line Two */
+    .AboutContact-Line-Two {
+        border-bottom: 10px solid #F8CB64;
+        width: 30%;
+        height: 5%;
+    }
+    /* Relates To About Me Text */
+    .About {
+        font-size: 25px;
     }
 }
 
@@ -453,5 +513,11 @@
     /* Relates To My Skills Decorative Line Two */
     .Skills-Line-Two {
         width: 68%;
+    }
+      /* Relates To About/Contact Decorative Line Two */
+      .AboutContact-Line-Two {
+        border-bottom: 10px solid #F8CB64;
+        width: 60%;
+        height: 5%;
     }
 }
