@@ -167,32 +167,52 @@
 
 /* Media Query For Small Screen */
 @media only screen and (max-width:576px) {
+    /* Relates To Jumbotron Header */
     .Jumbo-Header {
         display: none;
     }
+    /* Relates To Jumbotron Sub Heading */
     .Jumbo-SubHeader {
         display: none;
     }
+    /* Relates To Jumbotron Button */
     .Jumbo-Button {
         display: none;
     }
+    /* Relates To All Of Jumbotron */
     .jumbotron {
         height: 400px;
+    }
+     /* Relates To My Work Decorative Line Two */
+    .Work-Line-Two {
+        border-bottom: 10px solid #3b6d73;
+        width: 50%;
+        height: 5%;
     }
 }
 
 /* Media Query For Medium Screen */
 @media only screen and (min-width:577px) and (max-width:1200px) {
+    /* Relates To Jumbotron Header */
     .Jumbo-Header {
         display: none;
     }
+    /* Relates To Jumbotron Sub Heading */
     .Jumbo-SubHeader {
         display: none;
     }
+    /* Relates To Jumbotron Button */
     .Jumbo-Button {
         display: none;
     }
+    /* Relates To Whole Jumbotron */
     .jumbotron {
         height: 400px;
+    }
+    /* Relates To My Work Decorative Line Two */
+    .Work-Line-Two {
+        border-bottom: 10px solid #3b6d73;
+        width: 68%;
+        height: 5%;
     }
 }
