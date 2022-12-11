@@ -41,7 +41,7 @@
 
 <body>
     <!-- Code For Bootstrap Navigational Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light Navigation-Bar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light Navigation-Bar" id="Nav">
         <!-- Text Aspect Of The Nav Bar -->
         <a class="navbar-brand Navigation-Decoration"><strong>&lt M / M &gt</strong></a>
         <!-- Nav Bar Toggler Button-->
@@ -81,7 +81,8 @@
             <!-- Jumbotron Sub Header -->
             <p class="lead Jumbo-SubHeader">Web Developer</p>
             <!-- Jumbotron Button -->
-            <a class="btn Jumbo-Button" href="#" role="button"><strong>Get In Touch!</strong></a>
+            <a class="btn Jumbo-Button" role="button" data-toggle="modal" data-target="#Modal"><strong>Get In
+                    Touch!</strong></a>
         </div>
     </section>
     <main>
@@ -319,26 +320,25 @@
                 <!-- Conact Me Links -->
                 <div class="Contact col-lg-3 col-md-8 col-sm-8">
                     <!-- Button For Email Link -->
-                    <button type="button" class="btn w-100 ContactButton"><a
-                            href="mailto:Maisie.Mac.1995@gmail.com"></a>
-                        <strong>Email Me!</strong></button>
+                    <button type="button" class="btn w-100 ContactButton"><a href="mailto:Maisie.Mac.1995@gmail.com">
+                            <strong>Email Me!</strong></a></button>
                     <br>
                     <br>
                     <!-- Button For Phone Number Link -->
-                    <button type="button" class="btn w-100 ContactButton"><a href="tel:07498332712"></a>
-                        <strong>Give Me A Call!</strong></button>
+                    <button type="button" class="btn w-100 ContactButton"><a href="tel:07498332712">
+                            <strong>Give Me A Call!</strong></a></button>
                     <br>
                     <br>
                     <!-- Button For GitHub Link -->
                     <button type="button" class="btn w-100 ContactButton"><a target="_blank"
-                            href="https://github.com/MaccersM8"></a>
-                        <strong>GitHub!</strong></button>
+                            href="https://github.com/MaccersM8">
+                            <strong>GitHub!</strong></a></button>
                     <br>
                     <br>
                     <!-- Button For Linked In Link -->
                     <button type="button" class="btn w-100 ContactButton"><a target="_blank"
-                            href="https://www.linkedin.com/in/maisie-mcdonald-b91024189/"></a>
-                        <strong>LinkedIn!</strong></button>
+                            href="https://www.linkedin.com/in/maisie-mcdonald-b91024189/">
+                            <strong>LinkedIn!</strong></a></button>
                 </div>
                 <!-- Secton Bootstrap Grid Details -->
                 <div class="col-lg-12 col-md-2 col-sm-2"></div>
@@ -397,5 +397,47 @@
     <!-- Branding -->
     <p class="Branding"><strong>&lt M / M &gt</strong></p>
 </footer>
+<!-- Modal Section For Jumbotron Button -->
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header ModalHeader">
+                <h5 class="modal-title Modal-Header-Title" id="exampleModalLabel"><strong>Contact Me! - Coming
+                        Soon!</strong></h5>
+            </div>
+            <!-- Modal Body/Content -->
+            <div class="modal-body">
+                <form>
+                    <!-- Conact Name Input -->
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label Label"><strong>Name:</strong></label>
+                        <input type="text" class="form-control Input-Box">
+                    </div>
+                    <!-- Email Address Input -->
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label Label"><strong>Email
+                                Adress:</strong></label>
+                        <input type="text" class="form-control Input-Box">
+                    </div>
+                    <!-- Phone Number Input -->
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label Label"><strong>Phone
+                                Number:</strong></label>
+                        <input type="text" class="form-control Input-Box">
+                    </div>
+                    <!-- Message Input-->
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label Label"><strong>Message:</strong></label>
+                        <input type="text" class="form-control Input-Box">
+                    </div>
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn Submit-Button"><strong>Coming Soon!</strong></button>
+                    <!-- Close Button -->
+                    <button type="submit" class="btn Close-Button"><strong>Cancel</strong></button>
+                </form>
+            </div>
+        </div>
+    </div>
 
 </html>
