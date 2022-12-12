@@ -12,7 +12,6 @@
     font-size: 25px;
     color: white !important;
 }
-
 .Navigation-Link:hover {
     color: #fe6b6b !important;
 }
@@ -22,7 +21,7 @@
     border: none;
 }
 
-/* Applies To The Branding On Nav Bar */
+ /* Applies To The Branding On Nav Bar */
 .Navigation-Decoration {
     font-family: 'Economica', sans-serif;
     color: white !important;
@@ -88,7 +87,7 @@
 
 /* Applies To Work Title Section */
 .Work-Header {
-    display: flex;
+    display:flex;
     align-items: center;
 }
 
@@ -167,7 +166,7 @@
 
 /* Applies To Skills Title Section */
 .Skills-Header {
-    display: flex;
+    display:flex;
     align-items: center;
 }
 
@@ -197,7 +196,7 @@
 /* Applies To My Skills Section Introduction */
 .Skills-Intro {
     margin: 10px;
-    color: #3B6D73;
+    color:#3B6D73;
     font-family: 'Economica', sans-serif;
     font-size: 30px;
 }
@@ -309,7 +308,7 @@
 
 /* Applies To Skills Text */
 .Skills-Text {
-    color: #3B6D73;
+    color:#3B6D73;
     font-family: 'Economica', sans-serif;
     font-size: 30px;
     padding-left: 10px;
@@ -317,7 +316,7 @@
 
 /* Applies To About/Contact Title Section */
 .AboutContact-Header {
-    display: flex;
+    display:flex;
     align-items: center;
 }
 
@@ -485,70 +484,57 @@ footer {
 
 /* Media Query For Small Screen */
 @media only screen and (max-width:576px) {
-
     /* Relates To Jumbotron Header */
     .Jumbo-Header {
         display: none;
     }
-
     /* Relates To Jumbotron Sub Heading */
     .Jumbo-SubHeader {
         display: none;
     }
-
     /* Relates To Jumbotron Button */
     .Jumbo-Button {
         display: none;
     }
-
     /* Relates To All Of Jumbotron */
     .jumbotron {
         height: 400px;
     }
-
     /* Relates To My Work Decorative Line Two */
     .Work-Line-Two {
         width: 50%;
     }
-
     /* Relates To My Skills Decorative Line Two */
     .Skills-Line-Two {
         width: 50%;
     }
-
     /*Relates To Coming Soon Progress Header */
     .Coming-Soon-Header {
         font-size: 20px;
         text-align: center;
         padding-left: 2px;
     }
-
     /*Relates To HTML Progress Header */
     .HTML-Header {
         font-size: 20px;
     }
-
     /*Relates To JavaScript Progress Header */
     .JavaScript-Header {
         font-size: 20px;
     }
-
     /*Relates To Coming Soon Progress Header */
     .CSS-Header {
         font-size: 20px;
     }
-
     .Skills-Text {
         font-size: 25px;
     }
-
     /* Relates To About/Contact Decorative Line Two */
     .AboutContact-Line-Two {
         border-bottom: 10px solid #F8CB64;
         width: 30%;
         height: 5%;
     }
-
     /* Relates To About Me Text */
     .About {
         font-size: 25px;
@@ -557,39 +543,32 @@ footer {
 
 /* Media Query For Medium Screen */
 @media only screen and (min-width:577px) and (max-width:1200px) {
-
     /* Relates To Jumbotron Header */
     .Jumbo-Header {
         display: none;
     }
-
     /* Relates To Jumbotron Sub Heading */
     .Jumbo-SubHeader {
         display: none;
     }
-
     /* Relates To Jumbotron Button */
     .Jumbo-Button {
         display: none;
     }
-
     /* Relates To Whole Jumbotron */
     .jumbotron {
         height: 400px;
     }
-
     /* Relates To My Work Decorative Line Two */
     .Work-Line-Two {
         width: 68%;
     }
-
     /* Relates To My Skills Decorative Line Two */
     .Skills-Line-Two {
         width: 68%;
     }
-
-    /* Relates To About/Contact Decorative Line Two */
-    .AboutContact-Line-Two {
+      /* Relates To About/Contact Decorative Line Two */
+      .AboutContact-Line-Two {
         border-bottom: 10px solid #F8CB64;
         width: 60%;
         height: 5%;
